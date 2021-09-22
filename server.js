@@ -26,7 +26,7 @@ app.get("/", function (req, res) {
   res.sendFile(__dirname + '/public/index.html')
 })
 
-app.post('/api/upload', upload.single('upfile'), function (req, res) {
+app.post('/api/fileanalyse', upload.single('upfile'), function (req, res) {
    // req.file is the name of your file in the form above, here 'upfile'
    // req.body will hold the text fields, if there were any 
    // console.log("req.file", req.file, "req.body:", req.body)

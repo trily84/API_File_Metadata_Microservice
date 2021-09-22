@@ -1,5 +1,5 @@
 {
-	"name": "fcc-shortener-microservice",
+	"name": "fcc-file-metadata-microservice",
 	"version": "0.0.1",
 	"description": "An FCC Backend Challenge",
 	"main": "server.js",
@@ -12,6 +12,7 @@
 		"dotenv": "^10.0.0",
 		"express": "4.17.1",
 		"mongoose": "5.13.2",
+		"multer": "^1.4.3",
 		"tinyurl": "1.1.7"
 	},
 	"engines": {
